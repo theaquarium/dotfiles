@@ -1,0 +1,11 @@
+[commit]
+	gpgsign = true
+[user]
+	signingkey = 23ED9DD6A2C59327
+	name = Leah Vashevko
+	email = leah@vashevko.com
+[core]
+	autocrlf = false
+	eol = lf
+[gpg]
+	program = C:\\Program Files (x86)\\gnupg\\bin\\gpg.exe
