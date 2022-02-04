@@ -9,3 +9,11 @@ Set-Alias -Name grep -Value Select-String
 function godev {
 	cd ~\Documents\Dev
 }
+
+function setcr {
+	Get-Location | Select -ExpandProperty Path | Out-File -FilePath ~\.crdevdir
+}
+
+function gocr {
+	Get-Content ~\.crdevdir | Set-Location
+}
