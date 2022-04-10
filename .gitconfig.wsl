@@ -1,0 +1,15 @@
+[commit]
+	gpgsign = true
+[user]
+	signingkey = 23ED9DD6A2C59327
+	name = Leah Vashevko
+	email = leah@vashevko.com
+[core]
+	autocrlf = false
+	eol = lf
+[init]
+	defaultBranch = main
+[gpg]
+	program = gpg
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe

@@ -7,6 +7,6 @@ createdotfilelink() {
 
 createdotfilelink ohmyposh.config.json
 createdotfilelink .yarnrc
-createdotfilelink .gitconfig
+createdotfilelink .gitconfig.wsl /home/theaquarium/.gitconfig
 createdotfilelink init.vim /home/theaquarium/.config/nvim/init.vim
 createdotfilelink .zshrc
