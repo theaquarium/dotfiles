@@ -1,4 +1,4 @@
-oh-my-posh --init --shell pwsh --config ~/ohmyposh.config.json | Invoke-Expression
+oh-my-posh init pwsh --config ~/ohmyposh.config.json | Invoke-Expression
 Enable-PoshTransientPrompt
 
 $env:VIRTUAL_ENV_DISABLE_PROMPT = 1
