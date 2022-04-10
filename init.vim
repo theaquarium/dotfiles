@@ -6,10 +6,17 @@ Plug 'preservim/nerdtree' |
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-commentary'
-Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'powershell -executionpolicy bypass -File install.ps1',
-    \ }
+if has('win32')
+    Plug 'autozimu/LanguageClient-neovim', {
+        \ 'branch': 'next',
+        \ 'do': 'powershell -executionpolicy bypass -File install.ps1',
+        \ }
+else
+    Plug 'autozimu/LanguageClient-neovim', {
+        \ 'branch': 'next',
+        \ 'do': 'bash install.sh',
+        \ }
+endif
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'

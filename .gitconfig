@@ -7,7 +7,7 @@
 [core]
 	autocrlf = false
 	eol = lf
-[gpg]
-	program = C:\\Program Files (x86)\\gnupg\\bin\\gpg.exe
 [init]
 	defaultBranch = main
+[gpg]
+	program = gpg
