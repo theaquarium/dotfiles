@@ -17,4 +17,4 @@ eval "$(oh-my-posh init zsh --config ~/ohmyposh.config.json)"
 
 eval "$(pyenv init -)"
 
-GPG_TTY=$(tty)
+export GPG_TTY=$(tty)
